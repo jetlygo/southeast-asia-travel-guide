@@ -1,0 +1,28 @@
+title: Southeast Asia Travel Guide by JetlyGo
+description: Plain-English guides to tours in Vietnam, Thailand, Indonesia and Cambodia, with routes, seasons and booking tips from the JetlyGo trip planner.
+url: https://jetlygo.github.io
+baseurl: /southeast-asia-travel-guide
+lang: en
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+author: JetlyGo
+logo: https://jetlygo.com/images/og/og-image.jpg
+social:
+  name: JetlyGo
+  links:
+    - https://jetlygo.com/
+    - https://twitter.com/JetlyGoTravel
+    - https://github.com/jetlygo
+twitter:
+  username: JetlyGoTravel
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://jetlygo.com/images/og/og-image.jpg
