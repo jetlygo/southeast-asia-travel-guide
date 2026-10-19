@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Southeast Asia Itineraries - 2, 3 and 4 Week Routes
 description: Ready-made routes through Vietnam, Cambodia, Thailand and Indonesia, with the tours that fit each stop and realistic travel times between them.
 ---

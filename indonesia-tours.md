@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Indonesia Tours Guide - Komodo, Raja Ampat, Bali and Lombok
 description: How to choose tours in Indonesia, from Komodo National Park liveaboards and Raja Ampat diving to Bali day trips, Nusa Lembongan and the Gili Islands.
 ---

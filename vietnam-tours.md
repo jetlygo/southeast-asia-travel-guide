@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Vietnam Tours Guide - Ha Long Bay, Hoi An, Phong Nha and More
 description: Where to go in Vietnam and which tours are worth booking, from Ha Long Bay cruises and Hoi An day trips to Phong Nha caving and Nha Trang diving.
 ---

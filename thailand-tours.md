@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Thailand Tours Guide - Bangkok, Chiang Mai, Phuket and Khao Sok
 description: A practical guide to Thailand tours, from Bangkok bike rides and Chiang Mai elephant sanctuaries to Phuket island trips and Khao Sok lake stays.
 ---

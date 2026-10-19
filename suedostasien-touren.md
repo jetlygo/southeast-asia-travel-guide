@@ -1,4 +1,5 @@
 ---
+lang: de
 title: "Südostasien-Rundreise: Die besten Touren in vier Ländern"
 description: "Touren in Vietnam, Thailand, Indonesien und Kambodscha: Halong-Bucht, Hoi An, Chiang Mai, Bali, Komodo und Angkor, mit Reisezeiten und Routenideen."
 ---
@@ -114,6 +115,19 @@ Liveaboards in Komodo und Raja Ampat, Expeditionshöhlen in Phong Nha und Kreuzf
 Am einfachsten mit Gabelflügen: Sie fliegen in einer Stadt ein und in einer anderen aus. Von Bangkok gibt es Direktflüge nach Bali, nach Siem Reap fahren auch Busse über die Grenze bei Poipet.
 
 Ihre ganze Reise, von der Route bis zur gebuchten Tour, planen Sie an einem Ort auf [jetlygo.com](https://jetlygo.com/de).
+
+## Weitere Reiseführer
+
+Ausführliche Ratgeber zu einzelnen Zielen:
+
+- [Halong Bucht: Kreuzfahrt und Anreise](halong-bucht.md)
+- [Nordvietnam Rundreise planen](nordvietnam-rundreise.md)
+- [Zentralvietnam: Hoi An, Hue, Phong Nha](zentralvietnam.md)
+- [Südvietnam und Mekongdelta](suedvietnam-mekongdelta.md)
+- [Rundreise Vietnam Kambodscha](rundreise-vietnam-kambodscha.md)
+- [Laos Rundreise im Norden](laos-rundreise.md)
+- [Komodo Nationalpark besuchen](komodo-nationalpark.md)
+- [Raja Ampat: Anreise und Tauchen](raja-ampat-reise.md)
 
 ## Weitere Sprachen
 

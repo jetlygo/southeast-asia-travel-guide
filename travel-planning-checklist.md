@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Southeast Asia Trip Planning Checklist - Visas, Seasons, Money
 description: A practical checklist for planning a trip to Vietnam, Thailand, Indonesia and Cambodia, covering visas, the best months, money, transport and booking order.
 ---

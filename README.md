@@ -54,6 +54,19 @@ It depends on your passport. You can [check visa requirements by passport](https
 **Can I book these tours directly?**
 Yes. Every tour linked in these guides can be booked on [jetlygo.com](https://jetlygo.com/), and you can ask questions before paying.
 
+## More guides by destination
+
+Narrower guides for the trips people ask us about most:
+
+- [Halong Bay cruise guide](halong-bay-cruise-guide.md)
+- [Lan Ha Bay guide](lan-ha-bay-guide.md)
+- [Central Vietnam travel guide](central-vietnam-guide.md)
+- [Mekong Delta tour guide](mekong-delta-tour-guide.md)
+- [Labuan Bajo and Komodo guide](labuan-bajo-komodo-guide.md)
+- [Raja Ampat liveaboard guide](raja-ampat-liveaboard-guide.md)
+- [Luwuk Banggai diving guide](luwuk-banggai-guide.md)
+- [Laos tours guide](laos-tours-guide.md)
+
 ## Read this guide in your language
 
 This guide is also written natively, not machine translated, in twelve more languages. Each version links to the matching language edition of JetlyGo.

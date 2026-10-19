@@ -1,4 +1,5 @@
 ---
+lang: it
 title: "Tour nel Sud-est asiatico: Vietnam, Thailandia, Bali e Cambogia"
 description: "Guida pratica ai tour nel Sud-est asiatico: crociere nella baia di Ha Long, Chiang Mai, Bali, Komodo e Angkor, con stagioni migliori e itinerari."
 ---
@@ -108,6 +109,18 @@ Entrambi: mercati, tuk-tuk e cibo di strada vogliono contanti. In Cambogia si us
 Sì, e potete fare domande prima di pagare. Altri consigli sono sul [blog di JetlyGo](https://jetlygo.com/it/blog).
 
 Buon viaggio: quando avete le date, mettete insieme voli, tour e visti su [JetlyGo in italiano](https://jetlygo.com/it).
+
+## Altre guide
+
+Guide dettagliate per destinazione:
+
+- [Baia di Halong in crociera](baia-di-halong.md)
+- [Cosa vedere in Vietnam del Nord](vietnam-del-nord.md)
+- [Delta del Mekong e Vietnam del Sud](delta-del-mekong.md)
+- [Viaggio in Cambogia](viaggio-in-cambogia.md)
+- [Viaggio in Thailandia](viaggio-in-thailandia.md)
+- [Isola di Komodo](isola-di-komodo.md)
+- [Come arrivare a Raja Ampat](raja-ampat-come-arrivare.md)
 
 ## Altre lingue
 

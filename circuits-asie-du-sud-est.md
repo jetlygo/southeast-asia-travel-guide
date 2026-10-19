@@ -1,4 +1,5 @@
 ---
+lang: fr
 title: "Circuits en Asie du Sud-Est : Vietnam, Thaïlande, Indonésie"
 description: "Circuits et excursions au Vietnam, en Thaïlande, en Indonésie et au Cambodge : baie d'Along, Chiang Mai, Bali, Komodo, Angkor et les meilleures saisons."
 ---
@@ -107,6 +108,19 @@ Tout dépend de votre passeport. Avant de réserver quoi que ce soit de non remb
 Oui, chaque activité citée ici se réserve sur JetlyGo, et vous pouvez poser vos questions avant de payer.
 
 Bon voyage, et à bientôt sur JetlyGo.
+
+## Autres guides
+
+Des guides détaillés par destination :
+
+- [Croisière en baie d'Halong](croisiere-baie-dhalong.md)
+- [Baie de Lan Ha](baie-de-lan-ha.md)
+- [Circuit dans le nord du Vietnam](circuit-nord-vietnam.md)
+- [Circuit au Cambodge](circuit-cambodge.md)
+- [Circuit au Laos](circuit-laos.md)
+- [Circuit en Thaïlande](circuit-thailande.md)
+- [Labuan Bajo et parc de Komodo](labuan-bajo-komodo.md)
+- [Voyage à Raja Ampat](raja-ampat-voyage.md)
 
 ## Autres langues
 

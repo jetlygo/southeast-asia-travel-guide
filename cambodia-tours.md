@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Cambodia Tours Guide - Siem Reap, Angkor and the Countryside
 description: Planning a trip to Cambodia, with tips on visiting Angkor and the best Siem Reap countryside tours by quad bike and ATV.
 ---

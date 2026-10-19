@@ -1,4 +1,5 @@
 ---
+lang: es
 title: "Tours por el Sudeste Asiático: Vietnam, Tailandia y más"
 description: "Guía práctica de tours y excursiones en Vietnam, Tailandia, Indonesia y Camboya: qué zonas elegir, cuándo viajar y cómo combinar los cuatro países."
 ---
@@ -111,6 +112,18 @@ Sí: mercados, puestos y tuk-tuks solo aceptan efectivo. En Camboya se usan dól
 Sí, todos se reservan en JetlyGo y puedes hacer preguntas antes de pagar.
 
 Elige tus regiones, mira el calendario y monta el viaje paso a paso: el Sudeste Asiático recompensa a quien va sin prisas.
+
+## Más guías
+
+Guías detalladas por destino:
+
+- [Bahía de Halong y sus cruceros](bahia-de-halong.md)
+- [Qué ver en el norte de Vietnam](norte-de-vietnam.md)
+- [Viaje a Vietnam y Camboya](viaje-a-vietnam-y-camboya.md)
+- [Viajar a Laos](viaje-a-laos.md)
+- [Viaje a Tailandia](viaje-a-tailandia.md)
+- [Isla de Komodo](isla-de-komodo.md)
+- [Buceo en Raja Ampat](raja-ampat-buceo.md)
 
 ## Otros idiomas
 

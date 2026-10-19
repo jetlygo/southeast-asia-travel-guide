@@ -1,4 +1,5 @@
 ---
+lang: nl
 title: "Rondreizen Zuidoost-Azië: tours in Vietnam, Thailand en meer"
 description: "Welke excursies en rondreizen in Vietnam, Thailand, Indonesië en Cambodja de moeite waard zijn, per regio uitgelegd, met de beste reistijd en een routeidee."
 ---
@@ -122,6 +123,18 @@ Dat hangt af van je paspoort, en de regels veranderen vaak. Reken overal op mins
 Liveaboards, expeditiegrotten en cruises in het hoogseizoen ruim van tevoren. De meeste dagtochten kun je een paar dagen vooruit regelen, en boottochten die van het weer afhangen boek je het liefst ter plekke.
 
 Goede reis, en neem de tijd: Zuidoost-Azië beloont wie niet alles in één keer wil zien.
+
+## Meer reisgidsen
+
+Uitgebreide gidsen per bestemming:
+
+- [Halong Bay boottocht](halong-bay-boottocht.md)
+- [Rondreis Noord-Vietnam](rondreis-noord-vietnam.md)
+- [Rondreis Zuid-Vietnam en Mekongdelta](rondreis-zuid-vietnam.md)
+- [Rondreis Thailand in 2 of 3 weken](rondreis-thailand.md)
+- [Rondreis Cambodja en Angkor](rondreis-cambodja.md)
+- [Komodo eiland en de varanen](komodo-eiland.md)
+- [Raja Ampat eilanden](raja-ampat-eilanden.md)
 
 ## Andere talen
 
