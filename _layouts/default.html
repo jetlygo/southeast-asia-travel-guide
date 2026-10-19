@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{%- assign lang = page.lang | default: site.lang | default: "en" -%}
+<html lang="{{ lang }}"{% if lang == "he" %} dir="rtl"{% endif %}>
+  <head>
+    <meta charset="UTF-8">
+{% seo %}
+    {%- if page.translation_key %}
+    {%- assign versions = site.pages | where: "translation_key", page.translation_key %}
+    {%- for v in versions %}
+    <link rel="alternate" hreflang="{{ v.lang | default: 'en' }}" href="{{ v.url | absolute_url }}">
+    {%- endfor %}
+    {%- for v in versions %}{% if v.lang == "en" %}
+    <link rel="alternate" hreflang="x-default" href="{{ v.url | absolute_url }}">
+    {%- endif %}{% endfor %}
+    {%- endif %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f6b4f">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .page-header{background-color:#0f6b4f;background-image:linear-gradient(120deg,#0f6b4f,#155e75)}
+      .page-header{padding:1.6rem 1rem}.page-header .project-name{font-size:1.4rem;font-weight:700;margin:0 auto .5rem;max-width:900px;line-height:1.2}
+      .page-header .project-tagline{font-size:.95rem;opacity:.85;margin:0 auto;max-width:760px;font-weight:400}
+      .main-content{max-width:52rem;font-size:1.05rem;line-height:1.7}
+      .main-content h1{font-size:2.1rem;line-height:1.2;color:#1d2421;margin:.5rem 0 1rem;border:0}
+      .main-content h2{margin-top:2.2rem}
+      .main-content img{display:block;width:100%;height:auto;border-radius:10px;margin:1.6rem 0 .4rem}
+      .main-content img + em,.main-content p > em:only-child{display:block;font-size:.9rem;color:#5b6662;margin-bottom:1.4rem}
+      .main-content table{display:table;width:100%;font-size:.95rem}
+      .main-content blockquote{border-left-color:#0f6b4f;color:#3a4542}
+      [dir="rtl"] .main-content blockquote{border-left:0;border-right:.3rem solid #0f6b4f;padding:0 1rem 0 0}
+      .breadcrumb{font-size:.9rem;margin-bottom:1.2rem}
+      @media (max-width:42em){.main-content h1{font-size:1.6rem}.main-content{font-size:1rem}}
+    </style>
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <header class="page-header" role="banner">
+      <p class="project-name"><a href="https://jetlygo.github.io/" style="color:#fff;text-decoration:none">JetlyGo Travel Guides</a></p>
+      <p class="project-tagline">Vietnam · Thailand · Indonesia · Cambodia · Laos</p>
+    </header>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://jetlygo.github.io/">JetlyGo Travel Guides</a> · <a href="https://jetlygo.com/">jetlygo.com</a> · <a href="{{ site.github.repository_url }}">GitHub</a></span>
+        <span class="site-footer-credits">Content shared under CC BY 4.0.</span>
+      </footer>
+    </main>
+  </body>
+</html>
