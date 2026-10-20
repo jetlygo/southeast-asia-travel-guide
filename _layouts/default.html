@@ -17,34 +17,64 @@
     <link rel="icon" type="image/png" sizes="192x192" href="https://jetlygo.github.io/icon-192.png">
     <link rel="apple-touch-icon" href="https://jetlygo.github.io/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@400;500;600&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#550b55">
+    <meta name="theme-color" content="#0e2a3b">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      .page-header{background-color:#550b55;background-image:linear-gradient(120deg,#550b55,#7a1f6e)}
-      .page-header{padding:1.6rem 1rem}.page-header .project-name{font-size:1.4rem;font-weight:700;margin:0 auto .5rem;max-width:900px;line-height:1.2}
-      .page-header .project-tagline{font-size:.95rem;opacity:.85;margin:0 auto;max-width:760px;font-weight:400}
-      .main-content{max-width:52rem;font-size:1.05rem;line-height:1.7}
-      .main-content h1{font-size:2.1rem;line-height:1.2;color:#1d2421;margin:.5rem 0 1rem;border:0}
-      .main-content h2{margin-top:2.2rem;color:#550b55}
-      .main-content a{color:#7a1f6e}
-      .brand-mark{width:30px;height:30px;border-radius:50%;background:#fff;padding:3px;vertical-align:middle;margin-right:8px}
-      .main-content img{display:block;width:100%;height:auto;border-radius:10px;margin:1.6rem 0 .4rem}
-      .main-content img + em,.main-content p > em:only-child{display:block;font-size:.9rem;color:#5b6662;margin-bottom:1.4rem}
+      body{font-family:"Work Sans",system-ui,-apple-system,"Segoe UI",sans-serif;background:#f7f3ec;color:#14232e}
+      .gnav{position:sticky;top:0;z-index:10;background:#0e2a3b;border-bottom:1px solid rgba(255,255,255,.08)}
+      .gnav-in{max-width:72rem;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:28px;height:64px}
+      .gnav .brand{color:#fff;font-weight:600;text-decoration:none;font-size:1rem;display:inline-flex;align-items:center;gap:10px;white-space:nowrap;min-height:44px}
+      .gnav .brand img{width:26px;height:26px}
+      .gnav .brand span{color:#efe6d6;font-weight:400}
+      .gnav ul{display:flex;gap:22px;list-style:none;margin:0 0 0 auto;padding:0}
+      .gnav ul a{color:rgba(255,255,255,.82);text-decoration:none;font-size:.95rem;display:inline-flex;align-items:center;min-height:44px}
+      .gnav ul a:hover{color:#fff}
+      .gnav .cta{background:#d98b3a;color:#14232e;text-decoration:none;font-weight:600;font-size:.92rem;padding:0 16px;border-radius:8px;min-height:40px;display:inline-flex;align-items:center;white-space:nowrap}
+      @media (max-width:860px){.gnav ul{display:none}.gnav .cta{margin-left:auto}}
+      .main-content{max-width:46rem;font-size:1.05rem;line-height:1.75;padding-top:2.5rem}
+      .main-content h1,.main-content h2,.main-content h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#14232e;border:0}
+      .main-content h1{font-size:2.4rem;line-height:1.15;margin:0 0 1.2rem}
+      .main-content h2{font-size:1.7rem;margin-top:2.4rem;padding-bottom:0;border-bottom:0}
+      .main-content h3{font-size:1.25rem}
+      .main-content a{color:#0b5c7a;text-underline-offset:3px}
+      .main-content img{display:block;width:100%;height:auto;border-radius:12px;margin:1.6rem 0 .4rem}
+      .main-content img + em,.main-content p > em:only-child{display:block;font-size:.9rem;color:#55636d;margin-bottom:1.4rem}
       .main-content table{display:block;width:100%;max-width:100%;overflow-x:auto;font-size:.95rem}
-      .main-content blockquote{border-left-color:#550b55;color:#3a4542}
-      [dir="rtl"] .main-content blockquote{border-left:0;border-right:.3rem solid #550b55;padding:0 1rem 0 0}
-      .breadcrumb{font-size:.9rem;margin-bottom:1.2rem}
-      @media (max-width:42em){.main-content h1{font-size:1.6rem}.main-content{font-size:1rem}}
+      .main-content table th{background:#e1eef3;color:#14232e}
+      .main-content blockquote{border-left-color:#0b5c7a;color:#3a4a55}
+      [dir="rtl"] .main-content blockquote{border-left:0;border-right:.3rem solid #0b5c7a;padding:0 1rem 0 0}
+      .site-footer{border-top-color:#e3dccf}
+      @media (max-width:42em){.main-content h1{font-size:1.75rem}.main-content{font-size:1rem;padding-top:1.5rem}}
     </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-    <header class="page-header" role="banner">
-      <p class="project-name"><a href="https://jetlygo.github.io/" style="color:#fff;text-decoration:none"><img src="https://jetlygo.github.io/icon-192.png" alt="" width="30" height="30" class="brand-mark">JetlyGo Travel Guides</a></p>
-      <p class="project-tagline">Vietnam · Thailand · Indonesia · Cambodia · Laos</p>
-    </header>
+    <nav class="gnav" aria-label="Main">
+      {%- assign L = page.lang | default: "en" -%}
+      {%- assign hubs = "de:suedostasien-touren,nl:rondreizen-zuidoost-azie,fr:circuits-asie-du-sud-est,es:tours-sudeste-asiatico,it:tour-sud-est-asiatico,he:tiyulim-drom-mizrach-asia,pt:passeios-sudeste-asiatico,ru:tury-yugo-vostochnaya-aziya,ko:dongnama-tour,zh:dongnanya-lvyou,vi:tour-dong-nam-a,id:tur-asia-tenggara" | split: "," -%}
+      {%- assign allg = "de:Alle Reiseführer,nl:Alle reisgidsen,fr:Tous les guides,es:Todas las guías,it:Tutte le guide,he:כל המדריכים,pt:Todos os guias,ru:Все путеводители,ko:모든 가이드,zh:全部指南,vi:Tất cả hướng dẫn,id:Semua panduan" | split: "," -%}
+      {%- assign ctas = "de:Touren ansehen,nl:Tours bekijken,fr:Voir les circuits,es:Ver tours,it:Vedi i tour,he:לכל הטיולים,pt:Ver passeios,ru:Смотреть туры,ko:투어 보기,zh:查看行程,vi:Xem tour,id:Lihat tur" | split: "," -%}
+      {%- assign hub = "" -%}{%- assign allLabel = "" -%}{%- assign ctaLabel = "Browse tours" -%}
+      {%- for x in hubs -%}{%- assign kv = x | split: ":" -%}{%- if kv[0] == L -%}{%- assign hub = kv[1] -%}{%- endif -%}{%- endfor -%}
+      {%- for x in allg -%}{%- assign kv = x | split: ":" -%}{%- if kv[0] == L -%}{%- assign allLabel = kv[1] -%}{%- endif -%}{%- endfor -%}
+      {%- for x in ctas -%}{%- assign kv = x | split: ":" -%}{%- if kv[0] == L -%}{%- assign ctaLabel = kv[1] -%}{%- endif -%}{%- endfor -%}
+      <div class="gnav-in">
+        <a class="brand" href="https://jetlygo.github.io/"><img src="https://jetlygo.github.io/mark-white.png" alt="" width="26" height="26">JetlyGo <span>Travel Guides</span></a>
+        <ul>
+        {%- if L == "en" %}
+          <li><a href="{{ '/vietnam-tours.html' | relative_url }}">Vietnam</a></li>
+          <li><a href="{{ '/thailand-tours.html' | relative_url }}">Thailand</a></li>
+          <li><a href="{{ '/indonesia-tours.html' | relative_url }}">Indonesia</a></li>
+          <li><a href="{{ '/cambodia-tours.html' | relative_url }}">Cambodia</a></li>
+        {%- elsif hub != "" %}
+          <li><a href="{{ '/' | append: hub | append: '.html' | relative_url }}">{{ allLabel }}</a></li>
+        {%- endif %}
+        </ul>
+        <a class="cta" href="https://jetlygo.com{% if L != 'en' %}/{{ L }}{% endif %}/tours">{{ ctaLabel }}</a>
+      </div>
+    </nav>
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
