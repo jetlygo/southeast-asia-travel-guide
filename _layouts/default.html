@@ -13,23 +13,28 @@
     <link rel="alternate" hreflang="x-default" href="{{ v.url | absolute_url }}">
     {%- endif %}{% endfor %}
     {%- endif %}
+    <link rel="icon" href="https://jetlygo.github.io/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://jetlygo.github.io/icon-192.png">
+    <link rel="apple-touch-icon" href="https://jetlygo.github.io/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0f6b4f">
+    <meta name="theme-color" content="#550b55">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      .page-header{background-color:#0f6b4f;background-image:linear-gradient(120deg,#0f6b4f,#155e75)}
+      .page-header{background-color:#550b55;background-image:linear-gradient(120deg,#550b55,#7a1f6e)}
       .page-header{padding:1.6rem 1rem}.page-header .project-name{font-size:1.4rem;font-weight:700;margin:0 auto .5rem;max-width:900px;line-height:1.2}
       .page-header .project-tagline{font-size:.95rem;opacity:.85;margin:0 auto;max-width:760px;font-weight:400}
       .main-content{max-width:52rem;font-size:1.05rem;line-height:1.7}
       .main-content h1{font-size:2.1rem;line-height:1.2;color:#1d2421;margin:.5rem 0 1rem;border:0}
-      .main-content h2{margin-top:2.2rem}
+      .main-content h2{margin-top:2.2rem;color:#550b55}
+      .main-content a{color:#7a1f6e}
+      .brand-mark{width:30px;height:30px;border-radius:50%;background:#fff;padding:3px;vertical-align:middle;margin-right:8px}
       .main-content img{display:block;width:100%;height:auto;border-radius:10px;margin:1.6rem 0 .4rem}
       .main-content img + em,.main-content p > em:only-child{display:block;font-size:.9rem;color:#5b6662;margin-bottom:1.4rem}
       .main-content table{display:block;width:100%;max-width:100%;overflow-x:auto;font-size:.95rem}
-      .main-content blockquote{border-left-color:#0f6b4f;color:#3a4542}
-      [dir="rtl"] .main-content blockquote{border-left:0;border-right:.3rem solid #0f6b4f;padding:0 1rem 0 0}
+      .main-content blockquote{border-left-color:#550b55;color:#3a4542}
+      [dir="rtl"] .main-content blockquote{border-left:0;border-right:.3rem solid #550b55;padding:0 1rem 0 0}
       .breadcrumb{font-size:.9rem;margin-bottom:1.2rem}
       @media (max-width:42em){.main-content h1{font-size:1.6rem}.main-content{font-size:1rem}}
     </style>
@@ -37,7 +42,7 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <header class="page-header" role="banner">
-      <p class="project-name"><a href="https://jetlygo.github.io/" style="color:#fff;text-decoration:none">JetlyGo Travel Guides</a></p>
+      <p class="project-name"><a href="https://jetlygo.github.io/" style="color:#fff;text-decoration:none"><img src="https://jetlygo.github.io/icon-192.png" alt="" width="30" height="30" class="brand-mark">JetlyGo Travel Guides</a></p>
       <p class="project-tagline">Vietnam · Thailand · Indonesia · Cambodia · Laos</p>
     </header>
     <main id="content" class="main-content" role="main">
