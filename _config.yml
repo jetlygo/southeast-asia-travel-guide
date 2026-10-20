@@ -12,7 +12,7 @@ relative_links:
   enabled: true
   collections: false
 author: JetlyGo
-logo: https://jetlygo.com/images/og/og-image.jpg
+logo: https://jetlygo.github.io/icon-512.png
 social:
   name: JetlyGo
   links:
