@@ -1,4 +1,5 @@
 ---
+lang: id
 title: "Paket Tur Asia Tenggara: Vietnam, Thailand, Indonesia, Kamboja"
 description: "Panduan memilih tur di Vietnam, Thailand, Indonesia dan Kamboja: Teluk Ha Long, Chiang Mai, open trip Komodo, Raja Ampat, Angkor, plus musim terbaik."
 ---

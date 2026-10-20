@@ -1,4 +1,5 @@
 ---
+lang: pt
 title: "Passeios no Sudeste Asiático: Vietnã, Tailândia, Indonésia"
 description: "Guia de passeios no Vietnã, Tailândia, Indonésia e Camboja: baía de Ha Long, Chiang Mai, Bali, Komodo e Angkor, com melhor época e roteiro pronto."
 ---

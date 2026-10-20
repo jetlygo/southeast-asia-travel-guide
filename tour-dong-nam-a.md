@@ -1,4 +1,5 @@
 ---
+lang: vi
 title: "Tour Đông Nam Á: Việt Nam, Thái Lan, Indonesia, Campuchia"
 description: "Cẩm nang chọn tour Đông Nam Á: du thuyền vịnh Hạ Long, hang động Phong Nha, Chiang Mai, Phuket, Bali, Komodo và Angkor, kèm mùa đẹp nhất từng nơi."
 ---
