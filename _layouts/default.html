@@ -24,7 +24,7 @@
     <style>
       body{font-family:"Work Sans",system-ui,-apple-system,"Segoe UI",sans-serif;background:#f7f3ec;color:#14232e}
       .gnav{position:sticky;top:0;z-index:10;background:#0e2a3b;border-bottom:1px solid rgba(255,255,255,.08)}
-      .gnav-in{max-width:64rem;margin:0 auto;padding:0 16px;display:flex;align-items:center;gap:28px;height:64px}
+      .gnav-in{max-width:60rem;margin:0 auto;padding:0 2rem;display:flex;align-items:center;gap:28px;height:64px}
       .gnav .brand{color:#fff;font-weight:600;text-decoration:none;font-size:1rem;display:inline-flex;align-items:center;gap:10px;white-space:nowrap;min-height:44px}
       .gnav .brand img{width:26px;height:26px}
       .gnav .brand span{color:#efe6d6;font-weight:400}
@@ -33,6 +33,7 @@
       .gnav ul a:hover{color:#fff}
       .gnav .cta{background:#d98b3a;color:#14232e;text-decoration:none;font-weight:600;font-size:.92rem;padding:0 16px;border-radius:8px;min-height:40px;display:inline-flex;align-items:center;white-space:nowrap}
       @media (max-width:860px){.gnav ul{display:none}.gnav .cta{margin-left:auto}}
+      @media (max-width:672px){.gnav-in{padding:0 1rem}}
       @media (max-width:520px){.gnav-in{gap:12px}.gnav .brand span{display:none}.gnav .cta{font-size:.88rem;padding:0 12px}}
       .main-content{max-width:60rem;font-size:1.1rem;line-height:1.75;padding:2.5rem 2rem 2rem}
       .main-content h1,.main-content h2,.main-content h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#14232e;border:0}
